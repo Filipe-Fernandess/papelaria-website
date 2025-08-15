@@ -6,10 +6,12 @@ aplicando habilidades de **desenvolvimento fullstack**.
 ---
 
 ## 🔧 Tecnologias Utilizadas
-- **Front-end:** HTML, CSS, JavaScript  
-- **Back-end:** PHP  
-- **Banco de dados:** MySQL  
-- **Design:** Responsivo e funcional para desktop e mobile
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ---
 
@@ -37,40 +39,41 @@ Desenvolvedor: **Filipe Faria**
 
 **Status:** Em desenvolvimento 🚧
 
-## 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto: Site Lara
 
+```markdown
 
-Site Lara/
+📁 Site Lara/
 │
-├─ admin/
-│ ├─ banners.php
-│ ├─ cadastrar_produto.html
-│ ├─ criar_cupons.html
-│ ├─ editar_produto.php
-│ ├─ frases.php
-│ ├─ gerenciar_cupons.php
-│ ├─ gerenciar_produtos.php
-│ ├─ main_gerenciar_produto.php
-│ ├─ painel.html
-│ └─ salvar_produto.php
+├─ 📁 admin/
+│   ├─ 📝 banners.php
+│   ├─ 📝 cadastrar_produto.html
+│   ├─ 📝 criar_cupons.html
+│   ├─ 📝 editar_produto.php
+│   ├─ 📝 frases.php
+│   ├─ 📝 gerenciar_cupons.php
+│   ├─ 📝 gerenciar_produtos.php
+│   ├─ 📝 main_gerenciar_produto.php
+│   ├─ 📝 painel.html
+│   └─ 📝 salvar_produto.php
 │
-├─ db_lara_site/
-│ └─ conexao_db.php
+├─ 📁 db_lara_site/
+│   └─ 🗄️ conexao_db.php
 │
-├─ estilo/
-│ └─ style.css
+├─ 📁 estilo/
+│   └─ 🎨 style.css
 │
-├─ js/
-│ ├─ function_cadastro_produto.js
-│ ├─ function_cadastro.js
-│ └─ function_index.js
+├─ 📁 js/
+│   ├─ ⚙️ function_cadastro_produto.js
+│   ├─ ⚙️ function_cadastro.js
+│   └─ ⚙️ function_index.js
 │
-├─ uploads/ # Local onde serão armazenadas as imagens dos produtos e banners
+├─ 📁 uploads/        # Pasta para armazenar imagens de produtos e banners
 │
-├─ cadastro_back.php
-├─ cadastro.html
-├─ carrinho.html
-├─ index.html
-├─ login_back.php
-├─ login.html
-└─ produto.html
+├─ 📝 cadastro_back.php
+├─ 📝 cadastro.html
+├─ 📝 carrinho.html
+├─ 📝 index.html
+├─ 📝 login_back.php
+├─ 📝 login.html
+└─ 📝 produto.html
