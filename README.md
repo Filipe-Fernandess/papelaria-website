@@ -58,7 +58,9 @@ Desenvolvedor: **Filipe Faria**
 │   └─ 📝 salvar_produto.php
 │
 ├─ 📁 db_lara_site/
-│   └─ 🗄️ conexao_db.php
+│   ├─ 🖥️ conexao_db.php     
+│   └─ 💾 estrutura.sql      
+
 │
 ├─ 📁 estilo/
 │   └─ 🎨 style.css
