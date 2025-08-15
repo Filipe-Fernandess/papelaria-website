@@ -1,0 +1,105 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lara e seus papéis</title>
+  <link rel="stylesheet" href="estilo/style.css" />
+</head>
+<body>
+  <header class = "head-estilizado">
+    <img src="Archives/logo.jpg" alt="Logo Lara e seus papéis" class="logo">
+    <nav>
+      <div class="nav-links">
+        <div><a href="index.html">Página Inicial</a></div>
+        <div><a href="#">Minha Conta</a></div>
+        <div><a href="#">Carrinho</a></div>
+        <div><a href="#">Suporte</a></div>
+        <div class="login">
+        <a href="login.html">Login</a>
+        </div>
+      </div>
+      
+    </nav>
+
+  </header>
+
+  <div class="search-bar">
+    <div class="search-bar-inner">
+      <input type="text" placeholder="O que você procura...">
+      <button>Buscar</button>
+    </div>
+  </div>
+
+  <!-- Carrossel de banners -->
+  <div class="carousel">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel-track">
+      <img src="Archives/Lista de compra.webp" alt="Banner 1" class="carousel-img">
+      <img src="Archives/Lista de compra 1.webp" alt="Banner 2" class="carousel-img">
+      <img src="Archives/Canetas.webp" alt="Banner 3" class="carousel-img">
+      <img src="Archives/Canetas 1.webp" alt="Banner 4" class="carousel-img">
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+
+  <div class="categories">
+    <div>Leitura da Bíblia</div>
+    <div>Estudo Pessoal</div>
+    <div>Reunião</div>
+    <div>Pregação</div>
+    <div>Lembrancinhas</div>
+    <div>Variados</div>
+    <div>Planner</div>
+  </div>
+  <div class="produtos">
+    <div class="produto">
+      <img src="Archives/Caderno - Congresso 2024 Declare as boas novas contém-70 folhas pautadas e decoradas Todos os temas do congresso , bastante espaço para anotar os discursos Cronograma do congresso para cada dia Divisórias para os .webp" alt="Caderno">
+      <h3>Caderno Congresso 2024 - Declare as Boas Novas</h3>
+      <p class="preco-antigo">R$ 139,90</p>
+      <p class="preco">R$ 119,90</p>
+      <a href="pagina-produto.html" class="btn-eu-quero">EU QUERO!</a>
+    </div>
+    <div class="produto">
+      <img src="Archives/'  Que tal transformar seu estudo da Bíblia em uma jornada ainda mais profunda e organizada Meu Caderno de Leitura é o companheiro ideal Para anotar os principais destaques, lições e reflexões diárias sobre Jeová .webp" alt="Agenda 2025">
+      <h3>Caderno de Estudo da Bíblia</h3>
+      <p class="preco-antigo">R$ 49,90</p>
+      <p class="preco">R$ 39,90</p>
+      <a href="pagina-produto.html" class="btn-eu-quero">EU QUERO!</a>
+    </div>
+    <div class="produto">
+      <img src="Archives/'Organize suas anotações da assembleia de forma prática e bonita com nosso caderno exclusivo.'  'Com ele, você não vai perder nenhum detalhe importante e ainda vai manter tudo em ordem para revisitar quando precis.webp" alt="Bloco">
+      <h3>Caderno de Anotações Assembleia</h3>
+      <p class="preco-antigo">R$ 29,90</p>
+      <p class="preco">R$ 22,90</p>
+      <a href="pagina-produto.html" class="btn-eu-quero">EU QUERO!</a>
+    </div>
+  </div>
+
+  <!-- Card de chat flutuante -->
+  <div class="chat-float" id="chatFloat">
+    <button class="chat-btn" id="openChat">
+      <span>💬</span> Fale com o vendedor
+    </button>
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-header">
+        <span>Atendimento</span>
+        <button class="close-chat" id="closeChat">&times;</button>
+      </div>
+      <div class="chat-body">
+        <p>Olá! Como posso ajudar?</p>
+        <!-- Você pode colocar um formulário ou link para WhatsApp aqui -->
+        <a href="https://wa.me/(numero do telefone)" target="_blank" class="chat-whatsapp">Conversar pelo WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Políticas da Loja | Sobre Nós</p>
+    <p>© 2025 Lara e seus papéis</p>
+    <p class="assinatura">Desenvolvido por <span>Dev Filipe Fernandes</span></p>
+  </footer>
+  <script src="js/function_index.js"></script>
+</body>
+</html>
