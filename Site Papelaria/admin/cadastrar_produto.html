@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../estilo/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <header class = "head-estilizado">
+        <nav>
+            <div class = "nav-links">
+                <div><a href="painel.html">Pagina inicial</a></div>
+                <div><a href="gerenciar_produtos.html">Produtos</a></div>
+                <div><a href="gerenciar_cupons.html">Cupons</a></div>
+                <div><a href="banners.html">Banners</a></div>
+                <div><a href="frases.html">Frases</a></div>
+
+            </div>
+        </nav>
+  </header><br>
+  <a href="painel.html"><button class = sair>Sair</button></a><br><br>
+  <form class="cadastro-produto" action="salvar_produto.php" method="post"
+  enctype="multipart/form-data">
+    <label for="nome-produto">Nome:</label><br>
+    <input type="text" name="nome-produto" id="nome-produto" maxlength="100"><br><br>
+    <label for="categoria" name="categoria">Categoria:</label><br>
+    <select name="categoria" id="categoria">
+        <option value="Leitura da Biblia">Leitura da Bíblia</option>
+        <option value="Estudo Pessoal">Estudo Pessoal</option>
+        <option value="Reuniao">Reunião</option>
+        <option value="Pregacao">Pregação</option>
+        <option value="Lembrancinhas">Lembrancinhas</option>
+        <option value="Planner">Panner</option>
+        <option value="Variados">Variados</option>
+    </select> <br><br>
+    <label for="quantidade">Quantidade:</label><br>
+    <input type="float" name="quantidade" id="quantidade" required><br><br>
+    <label for="preco-atual">Preço atual:</label><br>
+    <input type="number" name="preco-atual" id="preco-atual" placeholder="ex: 9,99" required><br><br>
+    <label for="percentual_desconto">Desconto: </label>
+    <input type="number" name="percentual_desconto" id="percentual_desconto" placeholder="ex: 10 (10%), 2 (2%)"><br><br>
+    <label for="preco-antigo">Preço sem desconto</label>
+    <input type="number" name="preco-antigo" id="preco-antigo" placeholder="ex: 9,99"><br><br>
+    <p>Adicione imagens ao seu produto</p>
+    <div class="imagens">
+        <input type="file" name="imagem1" id="imagem1">
+        <input type="file" name="imagem2" id="imagem2">
+        <input type="file" name="imagem3" id="imagem3">
+        <input type="file" name="imagem4" id="imagem4">
+        <input type="file" name="imagem5" id="imagem5">
+        <input type="file" name="imagem6" id="imagem6">
+    </div> <br><br>
+
+    <textarea class="descricao" name="descricao" id="descricao" maxlength="500" placeholder="Digite a descrição do produto..."></textarea>
+    <br>
+    <span id="contador-descricao">0/500</span><br><br>
+    <label for="ativo">Ativar/Desativar produto no site: </label>
+    <input type="checkbox" name="ativo" value="1"><br><br>
+    <button class = "salvar-button" type="submit">Salvar</button>
+
+
+  </form> 
+</body>
+<script src="../js/function_cadastro_produto.js" defer></script>
+</html>
