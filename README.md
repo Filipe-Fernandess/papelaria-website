@@ -1,6 +1,6 @@
-# Site Papelaria 🛒
+# Papelaria website 🛒
 
-Bem-vindo ao **Site Papelaria**, um projeto de site completo desenvolvido para oferecer uma **experiência de compra intuitiva e funcional**, 
+Bem-vindo ao **Papelaria WebSite**, um projeto de site completo desenvolvido para oferecer uma **experiência de compra intuitiva e funcional**, 
 aplicando habilidades de **desenvolvimento fullstack**.
 
 ---
