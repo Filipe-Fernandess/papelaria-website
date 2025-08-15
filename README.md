@@ -40,32 +40,37 @@ Desenvolvedor: **Filipe Faria**
 ## 📂 Estrutura do Projeto
 
 
-Site Lara/<br>
-|   /admin/<br>
-|   |   banners.php<br>
-|   |   cadastrar_produto.html<br>
-|   |   criar_cupons.html<br>
-|   |   editar_produto.php<br>
-|   |   frases.php<br>
-|   |   gerenciar_cupons.php<br>
-|   |   gerenciar_produtos.php<br>
-|   |   main_gerenciar_produto.php<br>
-|   |   painel.html<br>
-|   |   salvar_produto.php<br>
-|   /db_lara_site/<br>
-|   |   conexao_db.php<br>
-|   /estilo/<br>
-|   |   style.css<br>
-|   /js/<br>
-|   |   function_cadastro_produto.js<br>
-|   |   function_cadastro.js<br>
-|   |   function_index.js <br>
-|   /uploads/ """local onde será armazenado as imagens dos podutos e banners"""<br>
-|   cadastro_back.php<br>
-|   cadastro.html<br>
-|   carrinho.html<br>
-|   index.html<br>
-|   login_back.php<br>
-|   login.html<br>
-|   produto.html <br>
-
+Site Lara/
+│
+├─ admin/
+│ ├─ banners.php
+│ ├─ cadastrar_produto.html
+│ ├─ criar_cupons.html
+│ ├─ editar_produto.php
+│ ├─ frases.php
+│ ├─ gerenciar_cupons.php
+│ ├─ gerenciar_produtos.php
+│ ├─ main_gerenciar_produto.php
+│ ├─ painel.html
+│ └─ salvar_produto.php
+│
+├─ db_lara_site/
+│ └─ conexao_db.php
+│
+├─ estilo/
+│ └─ style.css
+│
+├─ js/
+│ ├─ function_cadastro_produto.js
+│ ├─ function_cadastro.js
+│ └─ function_index.js
+│
+├─ uploads/ # Local onde serão armazenadas as imagens dos produtos e banners
+│
+├─ cadastro_back.php
+├─ cadastro.html
+├─ carrinho.html
+├─ index.html
+├─ login_back.php
+├─ login.html
+└─ produto.html
