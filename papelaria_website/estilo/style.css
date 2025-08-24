@@ -1,11 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ffe4eb;
 }
 
+.main-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fccbf0, #ff8c8a, #ff7c9f);
+}
+
 .head-estilizado {
-  background-color: #d2e1fa;
+  background-color: #c6d9fa;
+  border: blur;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -14,7 +25,7 @@ body {
 }
 
 footer {
-  background-color: #d2e1fa; /* Azul para topo e rodapé */
+  background-color: #ff7c9f; /* Azul para topo e rodapé */
   padding: 10px 20px;
   text-align: center;
 }
@@ -318,15 +329,16 @@ footer p {
   color: #fff;
   border: none;
   border-radius: 24px;
-  padding: 14px 22px;
+  padding: 30px 50px;
   font-size: 1.1em;
   font-weight: bold;
-  box-shadow: 0 4px 16px rgba(223,2,82,0.10);
+  box-shadow: 0 10px 20px rgba(223,2,82,0.10);
   cursor: pointer;
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 8px;
-  transition: background 0.2s;
+  transition: background 0.5s;
 }
 
 .chat-btn:hover {
@@ -334,6 +346,9 @@ footer p {
 }
 
 .chat-window {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
   display: none;
   flex-direction: column;
   width: 290px;
@@ -546,6 +561,18 @@ h1 {
 
 .sair {
   border: #df0252;
+  border-radius: 40px;
+  background-color: #df0252;
+  color: #d2e1fa;
+  max-width: 40%;
+  width: 100px;
+  height: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+}
+
+button {
+  border: none;
   border-radius: 40px;
   background-color: #df0252;
   color: #d2e1fa;
