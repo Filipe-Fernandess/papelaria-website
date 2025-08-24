@@ -33,7 +33,7 @@ aplicação de habilidades em **desenvolvimento web fullstack**. Mostra integra�
 
 ## 📫 Contato
 Desenvolvedor: **Filipe Faria**  
-[LinkedIn](https://www.linkedin.com/in/filipe-faria-bba2b524b) | [Email](filipefaria1805@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/filipe-fernandes-bba2b524b/) | [Email](filipefaria1805@gmail.com)
 
 ---
 
