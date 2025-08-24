@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="stylesheet" href="../estilo/style_admin.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de produtos</title>
@@ -9,9 +10,8 @@
 <header class = "head-estilizado">
         <div class = "nav-links">
                 <div><a href="painel.html">Pagina inicial</a></div>
-                <div><a href="gerenciar_produtos.php">Produtos</a></div>
                 <div><a href="gerenciar_cupons.php">Cupons</a></div>
-                <div><a href="banners.html">Banners</a></div>
+                <div><a href="banners.php">Banners</a></div>
                 <div><a href="frases.html">Frases</a></div>
 
         </div>
@@ -40,6 +40,7 @@
         <tr>
             <th>Imagem</th>
             <th>Nome</th>
+            <th>Categoria</th>
             <th>Quantidade</th>
             <th>Preço</th>
             <th>Desconto</th>
