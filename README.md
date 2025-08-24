@@ -33,7 +33,7 @@ aplicação de habilidades em **desenvolvimento web fullstack**. Mostra integra�
 
 ## 📫 Contato
 Desenvolvedor: **Filipe Faria**  
-[LinkedIn](https://www.linkedin.com/in/filipe-faria-bba2b524b ) | [Email](filipefaria1805@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/filipe-faria-bba2b524b) | [Email](filipefaria1805@gmail.com)
 
 ---
 
@@ -46,6 +46,7 @@ Desenvolvedor: **Filipe Faria**
 📁 Site Lara/
 │
 ├─ 📁 admin/
+│   ├─ 📝 adicionar_banners.html
 │   ├─ 📝 banners.php
 │   ├─ 📝 cadastrar_produto.html
 │   ├─ 📝 criar_cupons.html
@@ -53,6 +54,7 @@ Desenvolvedor: **Filipe Faria**
 │   ├─ 📝 frases.php
 │   ├─ 📝 gerenciar_cupons.php
 │   ├─ 📝 gerenciar_produtos.php
+│   ├─ 📝 main_gerenciar_banners.php
 │   ├─ 📝 main_gerenciar_produto.php
 │   ├─ 📝 painel.html
 │   └─ 📝 salvar_produto.php
@@ -60,12 +62,14 @@ Desenvolvedor: **Filipe Faria**
 ├─ 📁 db_lara_site/
 │   ├─ 🖥️ conexao_db.php     
 │   └─ 💾 estrutura.sql      
-
+│
 │
 ├─ 📁 estilo/
+│   ├─ 🎨 style_admin.css
 │   └─ 🎨 style.css
 │
 ├─ 📁 js/
+│   ├─ ⚙️ function_admin_banners.js
 │   ├─ ⚙️ function_cadastro_produto.js
 │   ├─ ⚙️ function_cadastro.js
 │   └─ ⚙️ function_index.js
