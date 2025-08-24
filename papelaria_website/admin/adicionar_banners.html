@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../estilo/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Banners</title>
+</head>
+<header class = "head-estilizado">
+        <div class = "nav-links">
+                <div><a href="painel.html">Pagina inicial</a></div>
+                <div><a href="gerenciar_produtos.php">Produtos</a></div>
+                <div><a href="gerenciar_cupons.php">Cupons</a></div>
+                <div><a href="banners.php">Banners</a></div>
+                <div><a href="frases.php">Frases</a></div>
+
+        </div>
+</header>
+<body>
+    <h1 class="title">Adicionar Banners</h1>
+    <div class="container-banners">
+        <form action="main_adicionar_banners.php" method="post" enctype="multipart/form-data">
+            <label for="banner_image">Selecione a imagem do banner:</label><br><br>
+            <input type="file" id="banner_image" name="banner_image" accept="image/*" required><br>
+            <input type="file" id="banner_image" name="banner_image" accept="image/*" required><br>
+            <input type="file" id="banner_image" name="banner_image" accept="image/*" required><br>
+            <input type="file" id="banner_image" name="banner_image" accept="image/*" required><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
